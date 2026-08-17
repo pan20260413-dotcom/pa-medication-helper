@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">藥物資訊示意圖</title><desc id="desc">藥盒與膠囊的通用醫療插畫，不代表實際藥品外觀。</desc>
+  <rect width="320" height="320" rx="32" fill="#e5f5f2"/>
+  <path d="M58 238h204" stroke="#b9ddd8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="91" y="82" width="138" height="151" rx="12" fill="#fff" stroke="#c4ded9" stroke-width="5"/>
+  <path d="M91 117h138" stroke="#0f766e" stroke-width="19"/>
+  <rect x="113" y="146" width="76" height="11" rx="5.5" fill="#c6d8d5"/>
+  <rect x="113" y="168" width="54" height="11" rx="5.5" fill="#c6d8d5"/>
+  <path d="M208 192c0-19 15-34 34-34v68c-19 0-34-15-34-34Z" fill="#e79b48"/>
+  <path d="M242 158c19 0 34 15 34 34s-15 34-34 34z" fill="#0f766e"/>
+  <path d="M242 158v68" stroke="#fff" stroke-width="3"/>
+</svg>

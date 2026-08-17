@@ -1,0 +1,18 @@
+[
+  {
+    "id": "valsartan",
+    "genericName": "Valsartan",
+    "brandNames": ["Diovan"],
+    "classification": "血管張力素 II 受體阻斷劑（ARB）",
+    "image": "assets/medicines/valsartan.svg",
+    "contentStatus": "待專業確認",
+    "details": {
+      "主要作用": "待專業確認後填寫",
+      "作用機轉": "待專業確認後填寫",
+      "常見用途": "待專業確認後填寫",
+      "常見副作用": "待專業確認後填寫",
+      "注意事項": "待專業確認後填寫",
+      "PA / ARR 相關資訊": "待專業確認後填寫；請依臨床指引與專業人員判讀。"
+    }
+  }
+]
