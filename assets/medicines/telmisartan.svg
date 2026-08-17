@@ -1,1 +1,8 @@
-<svg xmlns=“http://www.w3.org/2000/svg“ 視圖框=“0 0 270 230“ 寬度=“270“ 高度=“230“> <直角 寬度=“270“ 高度=“230“ 處方藥=“16“ 充滿=“#ffffff“ 中風=“#cbd5e1“ 筆畫寬度=“2“/> <克><直角 x=“40“ 是=“65“ 寬度=“190“ 高度=“100“ 處方藥=“50“ 充滿=“#ffffff“ 中風=“#0f172a“ 筆畫寬度=“4“/><小路 d=“M40 115 A50 50 0 0 0 135 165 L135 65 A50 50 0 0 0 40 115 Z“ 充滿=“#0d9488“/></克> 1 分鐘前 更新 telmisartan.svg <文字 x=“135“ 是=“205“ 字體系列=“'Noto Sans TC'，無襯線字體“ 字體大小=“13“ 字體粗細=“大膽的“ 充滿=“#0f172a“ 文字錨點=“中間“>Micardis 80 / 必康平錠</文字> </svg>
+<text x="135" y="205"
+font-family="'Noto Sans TC', sans-serif"
+font-size="13"
+font-weight="bold"
+fill="#0f172a"
+text-anchor="middle">
+Micardis 80 / Telmisartan
+</text>
