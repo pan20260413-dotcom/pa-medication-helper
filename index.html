@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="PA臨床助手">
+  <meta name="theme-color" content="#0f4c81">
+  <title>PA 臨床藥物影響助手 | 原發性醛固酮過多症 PAC / PRA / ARR 臨床研究與評估工具</title>
+  
+  <!-- 繁體中文字體 Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/medicines/valsartan.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 醫療院所風格頂部導覽列 -->
+  <header class="hospital-header">
+    <div class="header-inner container">
+      <a href="#/" class="hospital-brand">
+        <div class="hospital-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 2v20M2 12h20"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="brand-title">PA 臨床藥物影響助手</div>
+          <div class="brand-subtitle">台灣醫療院所 / 臨床研究中心 PA 評估系統</div>
+        </div>
+      </a>
+
+      <!-- 導覽功能分頁 -->
+      <nav class="main-nav" id="main-nav">
+        <a href="#/" class="nav-item active" data-route="home">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+          藥物圖鑑與外觀
+        </a>
+        <a href="#/research" class="nav-item" data-route="research">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+          🔬 研究版：PA/ARR 試算與篩選
+        </a>
+        <a href="#/calculator" class="nav-item" data-route="calculator">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line></svg>
+          藥物評估計算機
+        </a>
+        <a href="#/matrix" class="nav-item" data-route="matrix">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+          ARR 影響總表
+        </a>
+        <a href="#/washout" class="nav-item" data-route="washout">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 16 14"></polyline></svg>
+          洗脫期與替代藥
+        </a>
+        <a href="#/compare" class="nav-item" data-route="compare">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="12"></line></svg>
+          藥物比對
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主內容掛載點 -->
+  <main id="app" class="main-content container"></main>
+
+  <!-- 藥物外觀大圖檢視 Modal -->
+  <div id="image-modal-overlay" class="modal-overlay" style="display:none;">
+    <div class="modal-card">
+      <button type="button" id="modal-close-btn" class="modal-close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- 頁尾 -->
+  <footer class="hospital-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <strong>原發性醛固酮過多症（PA）臨床藥物影響與收案研究工具</strong>
+        <p>本系統所列之藥物對 PAC / PRA / ARR 影響與洗脫期建議，參照 Endocrine Society Guidelines 與台灣高血壓學會共識指引。</p>
+      </div>
+      <div class="footer-right">
+        <div class="pwa-install-badge">
+          <span>📲 iPhone 使用者：按 Safari 底部「分享」圖示 ➔ 選取「加入主畫面」，即可作為 App 快捷使用</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

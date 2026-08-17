@@ -1,0 +1,12 @@
+{
+  "name": "高血壓藥物助手",
+  "short_name": "藥物助手",
+  "description": "高血壓藥物資訊整理工具",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8f7",
+  "theme_color": "#0e6570",
+  "icons": [{"src": "assets/icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}
